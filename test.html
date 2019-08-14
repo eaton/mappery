@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<script src="https://d3js.org/d3.v4.js"></script>
-		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 		<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 	</head>
 	<body>
@@ -22,22 +21,32 @@
 	// A path generator
 	var path = d3.geoPath()
 		.projection(projection)
+	
 
 	// Load world shape AND list of connection
 	d3.queue()
-	  .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")  // World shape
-	  .defer(d3.csv, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_connectionmap.csv") // Position of 
+	  .defer(d3.json, "https://raw.githubusercontent.com/eaton/mappery/master/world.geojson")  // World shape
+	  .defer(d3.json, "https://raw.githubusercontent.com/eaton/mappery/master/data-centers.json")  // Data centers
 	  .await(ready);
 
-	function ready(error, dataGeo, data) {
+	function ready(error, dataGeo, dataCenters) {
 
-		// Reformat the list of link. Note that columns in csv file are called long1, long2, lat1, lat2
-		var link = []
-		data.forEach(function(row){
-		  source = [+row.long1, +row.lat1]
-		  target = [+row.long2, +row.lat2]
-		  topush = {type: "LineString", coordinates: [source, target]}
-		  link.push(topush)
+		if (error) {
+			return console.warn(error);
+		}
+
+		// Generate clusters of inter-connections for each data center
+		var connections = []
+		dataCenters.forEach(function(source){
+			if (source.links) source.links.forEach(function(target){
+				loc1 = [+source.lon, +source.lat]
+				targetData = dataCenters.filter(obj => { return obj.name === target })[0]
+				if (targetData) {
+					loc2 = [+targetData.lon, +targetData.lat]
+					newLink = {type: "LineString", coordinates: [loc1, loc2]}
+					connections.push(newLink)
+				}
+			})
 		})
 
 		// Draw the map
@@ -52,15 +61,29 @@
 				.style("stroke", "#fff")
 				.style("stroke-width", 1)
 
-		// Add the path
-		svg.selectAll("myPath")
-		  .data(link)
-		  .enter()
-		  .append("path")
-			.attr("d", function(d){ return path(d)})
-			.style("fill", "none")
-			.style("stroke", "#666")
-			.style("stroke-width", 1)
+		// Add connections
+		svg
+			.selectAll("myConnections")
+			.data(connections)
+			.enter()
+			.append("path")
+				.attr("d", function(d){ return path(d)})
+				.style("fill", "none")
+				.style("stroke", "#666")
+				.style("stroke-width", 1)
+	
+		// Add circles:
+		svg
+			.selectAll("myLocations")
+			.data(dataCenters)
+			.enter()
+			.append("circle")
+				.attr("cx", function(d){ return projection([d.lon, d.lat])[0] })
+				.attr("cy", function(d){ return projection([d.lon, d.lat])[1] })
+				.attr("r", 2)
+				.attr("class", "circle")
+				.style("fill", "black")
+		
 
 	}
 	</script>
