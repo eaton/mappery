@@ -7,8 +7,8 @@
     "isPOP": true,
     "isCMS": true,
     "isFed": false,
-    "long": 52.370216,
-    "lon": 4.895168,
+    "lat": 52.370216,
+    "long": 4.895168,
     "hosts": ["AMS01", "AMS03"],
     "links": ["London", "Frankfurt", "Oslo", "Stockholm"]
   },
@@ -22,8 +22,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": true,
-    "long": 36.31291,
-    "lon": -80.33603,
+    "lat": 36.31291,
+    "long": -80.33603,
     "hosts": ["WDC01", "WDC03", "WDC04", "WDC06", "WDC07"],
     "links": ["Atlanta", "Chicago", "New York", "Amsterdam"]
   },
@@ -37,8 +37,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 33.748997,
-    "lon": -84.387985,
+    "lat": 33.748997,
+    "long": -84.387985,
     "links": ["Ashburn", "Dallas", "Miami"]
   },
   {
@@ -50,8 +50,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 41.385063,
-    "lon": 2.173404
+    "lat": 41.385063,
+    "long": 2.173404
   },
   {
     "name": "Beijing",
@@ -62,8 +62,8 @@
     "isPOP": false,
     "isCMS": false,
     "isFed": false,
-    "long": 39.904202,
-    "lon": 116.407394
+    "lat": 39.904202,
+    "long": 116.407394
   },
   {
     "name": "Boulder",
@@ -75,8 +75,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 40.014984,
-    "lon": -105.270546
+    "lat": 40.014984,
+    "long": -105.270546
   },
   {
     "name": "Chantilly",
@@ -88,8 +88,8 @@
     "isPOP": false,
     "isCMS": false,
     "isFed": false,
-    "long": 35.20402,
-    "lon": -80.79917,
+    "lat": 35.20402,
+    "long": -80.79917,
     "hosts": ["WDC01"]
   },
   {
@@ -101,8 +101,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 13.08268,
-    "lon": 80.270721,
+    "lat": 13.08268,
+    "long": 80.270721,
     "hosts": ["CHE1.00"],
     "links": ["Milan", "Paris", "Singapore"]
   },
@@ -116,8 +116,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 41.878113,
-    "lon": -87.629799,
+    "lat": 41.878113,
+    "long": -87.629799,
     "links": ["Toronto", "Ashburn", "New York", "Dallas", "Denver", "Seattle"]
   },
   {
@@ -130,8 +130,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": true,
-    "long": 32.776665,
-    "lon": -96.796989,
+    "lat": 32.776665,
+    "long": -96.796989,
     "hosts": ["DAL01", "DAL02", "DAL05", "DAL06", "DAL07", "DAL08", "DAL09", "DAL10,DAL12", "DAL13"],
     "links": ["Atlanta", "Chicago", "Denver", "Los Angeles", "Querétaro"]
   },
@@ -145,8 +145,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 39.739235,
-    "lon": -104.99025,
+    "lat": 39.739235,
+    "long": -104.99025,
     "links": ["Seattle", "San Jose", "Dallas", "Chicago"]
   },
   {
@@ -158,8 +158,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 48.65955,
-    "lon": 8.94097
+    "lat": 48.65955,
+    "long": 8.94097
   },
   {
     "name": "Fareham",
@@ -170,8 +170,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 50.851452,
-    "lon": -1.17902
+    "lat": 50.851452,
+    "long": -1.17902
   },
   {
     "name": "Frankfurt",
@@ -182,8 +182,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 50.110924,
-    "lon": 8.682127,
+    "lat": 50.110924,
+    "long": 8.682127,
     "hosts": ["FRA02", "FRA04", "FRA05"],
     "links": ["Amsterdam", "Milan", "Oslo", "Stockholm"]
   },
@@ -196,8 +196,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 22.396427,
-    "lon": 114.109497,
+    "lat": 22.396427,
+    "long": 114.109497,
     "hosts": ["HKG01"],
     "links": ["Seoul", "Tokyo", "Singapore", "Sydney"]
   },
@@ -210,8 +210,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": -22.883141,
-    "lon": -47.210918
+    "lat": -22.883141,
+    "long": -47.210918
   },
   {
     "name": "Houston",
@@ -223,8 +223,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 29.760427,
-    "lon": -95.369804,
+    "lat": 29.760427,
+    "long": -95.369804,
     "hosts": ["HOU02"],
     "links": ["Dallas", "Miami"]
   },
@@ -237,8 +237,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 51.507351,
-    "lon": -0.127758,
+    "lat": 51.507351,
+    "long": -0.127758,
     "hosts": ["LON02", "LON04", "LON05", "LON06"],
     "links": ["Amsterdam", "Oslo", "Paris", "New York"]
   },
@@ -252,8 +252,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 34.052235,
-    "lon": -118.243683,
+    "lat": 34.052235,
+    "long": -118.243683,
     "links": ["Dallas", "Querétaro", "San Jose", "Sydney", "Melbourne", "Singapore"]
   },
   {
@@ -265,8 +265,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 35.659168,
-    "lon": 140.057236
+    "lat": 35.659168,
+    "long": 140.057236
   },
   {
     "name": "Melbourne",
@@ -277,8 +277,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": -37.813629,
-    "lon": 144.963058,
+    "lat": -37.813629,
+    "long": 144.963058,
     "hosts": ["MEL01"],
     "links": ["Sydney", "Perth", "Los Angeles"]
   },
@@ -292,8 +292,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 25.761681,
-    "lon": -80.191788,
+    "lat": 25.761681,
+    "long": -80.191788,
     "links": ["Atlanta", "Houston", "Sao Paulo"]
   },
   {
@@ -305,8 +305,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 45.464203,
-    "lon": 9.189982,
+    "lat": 45.464203,
+    "long": 9.189982,
     "hosts": ["MIL01"],
     "links": ["Paris", "Frankfurt", "Chennai"]
   },
@@ -319,8 +319,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 43.60829,
-    "lon": 3.8796
+    "lat": 43.60829,
+    "long": 3.8796
   },
   {
     "name": "Montreal",
@@ -331,8 +331,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 45.496029,
-    "lon": -73.569481,
+    "lat": 45.496029,
+    "long": -73.569481,
     "hosts": ["MON01"],
     "links": ["Toronto", "New York"]
   },
@@ -346,8 +346,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 40.712776,
-    "lon": -74.005974,
+    "lat": 40.712776,
+    "long": -74.005974,
     "links": ["Ashburn", "Chicago", "Montreal", "London"]
   },
   {
@@ -359,8 +359,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 59.913868,
-    "lon": 10.752245,
+    "lat": 59.913868,
+    "long": 10.752245,
     "hosts": ["OSL01"],
     "links": ["Stockholm Frankfurt", "Amsterdam", "London"]
   },
@@ -373,8 +373,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 48.85689,
-    "lon": 2.35085,
+    "lat": 48.85689,
+    "long": 2.35085,
     "links": ["London", "Milan", "Chennai"]
   },
   {
@@ -386,8 +386,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": -31.950527,
-    "lon": 115.860458,
+    "lat": -31.950527,
+    "long": 115.860458,
     "links": ["Melbourne", "Sydney", "Singapore"]
   },
   {
@@ -399,8 +399,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 50.798908,
-    "lon": -1.09116
+    "lat": 50.798908,
+    "long": -1.09116
   },
   {
     "name": "Poughkeepsie",
@@ -412,8 +412,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 41.700371,
-    "lon": -73.920967
+    "lat": 41.700371,
+    "long": -73.920967
   },
   {
     "name": "Querétaro",
@@ -424,8 +424,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 20.59334,
-    "lon": -100.38974,
+    "lat": 20.59334,
+    "long": -100.38974,
     "hosts": ["MEX01"],
     "links": ["Dallas", "Los Angeles"]
   },
@@ -439,8 +439,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 35.779591,
-    "lon": -78.638176
+    "lat": 35.779591,
+    "long": -78.638176
   },
   {
     "name": "San Jose",
@@ -452,8 +452,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 37.338207,
-    "lon": -121.88633,
+    "lat": 37.338207,
+    "long": -121.88633,
     "hosts": ["SJC01", "SJC03", "SJC04"],
     "links": ["Los Angeles", "Seattle", "Denver", "Tokyo"]
   },
@@ -466,8 +466,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": -23.55052,
-    "lon": -46.633308,
+    "lat": -23.55052,
+    "long": -46.633308,
     "hosts": ["SAO01"],
     "links": ["New York", "Miami", "Los Angeles"]
   },
@@ -481,8 +481,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 47.606209,
-    "lon": -122.332069,
+    "lat": 47.606209,
+    "long": -122.332069,
     "hosts": ["SEA01"],
     "links": ["Chicago", "Denver", "San Jose"]
   },
@@ -495,8 +495,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 37.566536,
-    "lon": 126.977966,
+    "lat": 37.566536,
+    "long": 126.977966,
     "hosts": ["SEO01"],
     "links": ["Tokyo", "Hong Kong"]
   },
@@ -509,8 +509,8 @@
     "isPOP": true,
     "isCMS": true,
     "isFed": false,
-    "long": 1.352083,
-    "lon": 103.819839,
+    "lat": 1.352083,
+    "long": 103.819839,
     "hosts": ["SNG01"],
     "links": ["Perth", "Los Angeles", "Tokyo", "Hong Kong", "Chennai"]
   },
@@ -523,8 +523,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 59.329323,
-    "lon": 18.068581
+    "lat": 59.329323,
+    "long": 18.068581
   },
   {
     "name": "Sydney",
@@ -535,8 +535,8 @@
     "isPOP": true,
     "isCMS": true,
     "isFed": false,
-    "long": -33.86882,
-    "lon": 151.20929,
+    "lat": -33.86882,
+    "long": 151.20929,
     "hosts": ["STD01", "SYD04", "SYD05"],
     "links": ["Melbourne", "Perth", "Hong Kong", "Tokyo", "Los Angeles"]
   },
@@ -549,8 +549,8 @@
     "isPOP": true,
     "isCMS": false,
     "isFed": false,
-    "long": 35.689487,
-    "lon": 139.691711,
+    "lat": 35.689487,
+    "long": 139.691711,
     "hosts": ["TKO02", "TKO04", "TKO05"],
     "links": ["Seoul", "Hong Kong", "Singapore", "Sydney", "San Jose"]
   },
@@ -563,8 +563,8 @@
     "isPOP": true,
     "isCMS": true,
     "isFed": false,
-    "long": 43.65189,
-    "lon": -79.381706,
+    "lat": 43.65189,
+    "long": -79.381706,
     "hosts": ["TOR01"],
     "links": ["Chicago", "Montreal"]
   },
@@ -577,8 +577,8 @@
     "isPOP": false,
     "isCMS": true,
     "isFed": false,
-    "long": 47.499882,
-    "lon": 8.72616,
+    "lat": 47.499882,
+    "long": 8.72616,
     "links": ["Oslo", "Amsterdam", "Frankfurt"]
   }
 ]
