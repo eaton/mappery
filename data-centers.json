@@ -1,5 +1,4 @@
-[
-  "Amsterdam": {
+{"Amsterdam": {
     "name": "Amsterdam",
     "nation": "The Netherlands",
     "continent": "EU",
@@ -10,8 +9,8 @@
     "isFed": false,
     "lat": 52.370216,
     "lon": 4.895168,
-    "hosts": {"AMS01", "AMS03"},
-    "links": {"London", "Frankfurt", "Oslo", "Stockholm"}
+    "hosts": ["AMS01", "AMS03"],
+    "links": ["London", "Frankfurt", "Oslo", "Stockholm"]
   },
   "Ashburn": {
     "name": "Ashburn",
@@ -25,8 +24,8 @@
     "isFed": true,
     "lat": 36.31291,
     "lon": -80.33603,
-    "hosts": {"WDC01", "WDC03", "WDC04", "WDC06", "WDC07"},
-    "links": {"Atlanta", "Chicago", "New York", "Amsterdam"}
+    "hosts": ["WDC01", "WDC03", "WDC04", "WDC06", "WDC07"],
+    "links": ["Atlanta", "Chicago", "New York", "Amsterdam"]
   },
   "Atlanta": {
     "name": "Atlanta",
@@ -40,7 +39,7 @@
     "isFed": false,
     "lat": 33.748997,
     "lon": -84.387985,
-    "links": {"Ashburn", "Dallas", "Miami"}
+    "links": ["Ashburn", "Dallas", "Miami"]
   },
   "Barcelona": {
     "name": "Barcelona",
@@ -52,7 +51,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 41.385063,
-    "lon": 2.173404,
+    "lon": 2.173404
   },
   "Beijing": {
     "name": "Beijing",
@@ -64,7 +63,7 @@
     "isCMS": false,
     "isFed": false,
     "lat": 39.904202,
-    "lon": 116.407394,
+    "lon": 116.407394
   },
   "Boulder": {
     "name": "Boulder",
@@ -77,7 +76,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 40.014984,
-    "lon": -105.270546,
+    "lon": -105.270546
   },
   "Chantilly": {
     "name": "Chantilly",
@@ -91,7 +90,7 @@
     "isFed": false,
     "lat": 35.20402,
     "lon": -80.79917,
-    "hosts": {"WDC01"},
+    "hosts": ["WDC01"]
   },
   "Chennai": {
     "name": "Chennai",
@@ -104,8 +103,8 @@
     "isFed": false,
     "lat": 13.08268,
     "lon": 80.270721,
-    "hosts": {"CHE1.00"},
-    "links": {"Milan", "Paris", "Singapore"}
+    "hosts": ["CHE1.00"],
+    "links": ["Milan", "Paris", "Singapore"]
   },
   "Chicago": {
     "name": "Chicago",
@@ -119,7 +118,7 @@
     "isFed": false,
     "lat": 41.878113,
     "lon": -87.629799,
-    "links": {"Toronto", "Ashburn", "New York", "Dallas", "Denver", "Seattle"}
+    "links": ["Toronto", "Ashburn", "New York", "Dallas", "Denver", "Seattle"]
   },
   "Dallas": {
     "name": "Dallas",
@@ -133,8 +132,8 @@
     "isFed": true,
     "lat": 32.776665,
     "lon": -96.796989,
-    "hosts": {"DAL01", "DAL02", "DAL05", "DAL06", "DAL07", "DAL08", "DAL09", "DAL10,DAL12", "DAL13"},
-    "links": {"Atlanta", "Chicago", "Denver", "Los Angeles", "Querétaro"}
+    "hosts": ["DAL01", "DAL02", "DAL05", "DAL06", "DAL07", "DAL08", "DAL09", "DAL10,DAL12", "DAL13"],
+    "links": ["Atlanta", "Chicago", "Denver", "Los Angeles", "Querétaro"]
   },
   "Denver": {
     "name": "Denver",
@@ -148,7 +147,7 @@
     "isFed": false,
     "lat": 39.739235,
     "lon": -104.99025,
-    "links": {"Seattle", "San Jose", "Dallas", "Chicago"}
+    "links": ["Seattle", "San Jose", "Dallas", "Chicago"]
   },
   "Ehningen": {
     "name": "Ehningen",
@@ -160,7 +159,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 48.65955,
-    "lon": 8.94097,
+    "lon": 8.94097
   },
   "Fareham": {
     "name": "Fareham",
@@ -172,7 +171,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 50.851452,
-    "lon": -1.17902,
+    "lon": -1.17902
   },
   "Frankfurt": {
     "name": "Frankfurt",
@@ -185,8 +184,8 @@
     "isFed": false,
     "lat": 50.110924,
     "lon": 8.682127,
-    "hosts": {"FRA02", "FRA04", "FRA05"},
-    "links": {"Amsterdam", "Milan", "Oslo", "Stockholm"}
+    "hosts": ["FRA02", "FRA04", "FRA05"],
+    "links": ["Amsterdam", "Milan", "Oslo", "Stockholm"]
   },
   "Hong Kong": {
     "name": "Hong Kong",
@@ -199,8 +198,8 @@
     "isFed": false,
     "lat": 22.396427,
     "lon": 114.109497,
-    "hosts": {"HKG01"},
-    "links": {"Seoul", "Tokyo", "Singapore", "Sydney"}
+    "hosts": ["HKG01"],
+    "links": ["Seoul", "Tokyo", "Singapore", "Sydney"]
   },
   "Hortolandia": {
     "name": "Hortolandia",
@@ -212,7 +211,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": -22.883141,
-    "lon": -47.210918,
+    "lon": -47.210918
   },
   "Houston": {
     "name": "Houston",
@@ -226,8 +225,8 @@
     "isFed": false,
     "lat": 29.760427,
     "lon": -95.369804,
-    "hosts": {"HOU02"},
-    "links": {"Dallas", "Miami"}
+    "hosts": ["HOU02"],
+    "links": ["Dallas", "Miami"]
   },
   "London": {
     "name": "London",
@@ -240,8 +239,8 @@
     "isFed": false,
     "lat": 51.507351,
     "lon": -0.127758,
-    "hosts": {"LON02", "LON04", "LON05", "LON06"},
-    "links": {"Amsterdam", "Oslo", "Paris", "New York"}
+    "hosts": ["LON02", "LON04", "LON05", "LON06"],
+    "links": ["Amsterdam", "Oslo", "Paris", "New York"]
   },
   "Los Angeles": {
     "name": "Los Angeles",
@@ -255,7 +254,7 @@
     "isFed": false,
     "lat": 34.052235,
     "lon": -118.243683,
-    "links": {"Dallas", "Querétaro", "San Jose", "Sydney", "Melbourne", "Singapore"}
+    "links": ["Dallas", "Querétaro", "San Jose", "Sydney", "Melbourne", "Singapore"]
   },
   "Makuhari": {
     "name": "Makuhari",
@@ -267,7 +266,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 35.659168,
-    "lon": 140.057236,
+    "lon": 140.057236
   },
   "Melbourne": {
     "name": "Melbourne",
@@ -280,8 +279,8 @@
     "isFed": false,
     "lat": -37.813629,
     "lon": 144.963058,
-    "hosts": {"MEL01"},
-    "links": {"Sydney", "Perth", "Los Angeles"}
+    "hosts": ["MEL01"],
+    "links": ["Sydney", "Perth", "Los Angeles"]
   },
   "Miami": {
     "name": "Miami",
@@ -295,7 +294,7 @@
     "isFed": false,
     "lat": 25.761681,
     "lon": -80.191788,
-    "links": {"Atlanta", "Houston", "Sao Paulo"}
+    "links": ["Atlanta", "Houston", "Sao Paulo"]
   },
   "Milan": {
     "name": "Milan",
@@ -308,8 +307,8 @@
     "isFed": false,
     "lat": 45.464203,
     "lon": 9.189982,
-    "hosts": {"MIL01"},
-    "links": {"Paris", "Frankfurt", "Chennai"}
+    "hosts": ["MIL01"],
+    "links": ["Paris", "Frankfurt", "Chennai"]
   },
   "Montpelier": {
     "name": "Montpelier",
@@ -321,7 +320,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 43.60829,
-    "lon": 3.8796,
+    "lon": 3.8796
   },
   "Montreal": {
     "name": "Montreal",
@@ -334,8 +333,8 @@
     "isFed": false,
     "lat": 45.496029,
     "lon": -73.569481,
-    "hosts": {"MON01"},
-    "links": {"Toronto", "New York"}
+    "hosts": ["MON01"],
+    "links": ["Toronto", "New York"]
   },
   "New York": {
     "name": "New York",
@@ -349,7 +348,7 @@
     "isFed": false,
     "lat": 40.712776,
     "lon": -74.005974,
-    "links": {"Ashburn", "Chicago", "Montreal", "London"}
+    "links": ["Ashburn", "Chicago", "Montreal", "London"]
   },
   "Oslo": {
     "name": "Oslo",
@@ -362,8 +361,8 @@
     "isFed": false,
     "lat": 59.913868,
     "lon": 10.752245,
-    "hosts": {"OSL01"},
-    "links": {"Stockholm Frankfurt", "Amsterdam", "London"}
+    "hosts": ["OSL01"],
+    "links": ["Stockholm Frankfurt", "Amsterdam", "London"]
   },
   "Paris": {
     "name": "Paris",
@@ -376,7 +375,7 @@
     "isFed": false,
     "lat": 48.85689,
     "lon": 2.35085,
-    "links": {"London", "Milan", "Chennai"}
+    "links": ["London", "Milan", "Chennai"]
   },
   "Perth": {
     "name": "Perth",
@@ -389,7 +388,7 @@
     "isFed": false,
     "lat": -31.950527,
     "lon": 115.860458,
-    "links": {"Melbourne", "Sydney", "Singapore"}
+    "links": ["Melbourne", "Sydney", "Singapore"]
   },
   "Portsmouth": {
     "name": "Portsmouth",
@@ -401,7 +400,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 50.798908,
-    "lon": -1.09116,
+    "lon": -1.09116
   },
   "Poughkeepsie": {
     "name": "Poughkeepsie",
@@ -414,7 +413,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 41.700371,
-    "lon": -73.920967,
+    "lon": -73.920967
   },
   "Querétaro": {
     "name": "Querétaro",
@@ -427,8 +426,8 @@
     "isFed": false,
     "lat": 20.59334,
     "lon": -100.38974,
-    "hosts": {"MEX01"},
-    "links": {"Dallas", "Los Angeles"}
+    "hosts": ["MEX01"],
+    "links": ["Dallas", "Los Angeles"]
   },
   "Raleigh": {
     "name": "Raleigh",
@@ -441,7 +440,7 @@
     "isCMS": true,
     "isFed": false,
     "lat": 35.779591,
-    "lon": -78.638176,
+    "lon": -78.638176
   },
   "San Jose": {
     "name": "San Jose",
@@ -455,8 +454,8 @@
     "isFed": false,
     "lat": 37.338207,
     "lon": -121.88633,
-    "hosts": {"SJC01", "SJC03", "SJC04"},
-    "links": {"Los Angeles", "Seattle", "Denver", "Tokyo"}
+    "hosts": ["SJC01", "SJC03", "SJC04"],
+    "links": ["Los Angeles", "Seattle", "Denver", "Tokyo"]
   },
   "Sao Paulo": {
     "name": "Sao Paulo",
@@ -469,8 +468,8 @@
     "isFed": false,
     "lat": -23.55052,
     "lon": -46.633308,
-    "hosts": {"SAO01"},
-    "links": {"New York", "Miami", "Los Angeles"}
+    "hosts": ["SAO01"],
+    "links": ["New York", "Miami", "Los Angeles"]
   },
   "Seattle": {
     "name": "Seattle",
@@ -484,8 +483,8 @@
     "isFed": false,
     "lat": 47.606209,
     "lon": -122.332069,
-    "hosts": {"SEA01"},
-    "links": {"Chicago", "Denver", "San Jose"}
+    "hosts": ["SEA01"],
+    "links": ["Chicago", "Denver", "San Jose"]
   },
   "Seoul": {
     "name": "Seoul",
@@ -498,8 +497,8 @@
     "isFed": false,
     "lat": 37.566536,
     "lon": 126.977966,
-    "hosts": {"SEO01"},
-    "links": {"Tokyo", "Hong Kong"}
+    "hosts": ["SEO01"],
+    "links": ["Tokyo", "Hong Kong"]
   },
   "Singapore": {
     "name": "Singapore",
@@ -512,8 +511,8 @@
     "isFed": false,
     "lat": 1.352083,
     "lon": 103.819839,
-    "hosts": {"SNG01"},
-    "links": {"Perth", "Los Angeles", "Tokyo", "Hong Kong", "Chennai"}
+    "hosts": ["SNG01"],
+    "links": ["Perth", "Los Angeles", "Tokyo", "Hong Kong", "Chennai"]
   },
   "Stockholm": {
     "name": "Stockholm",
@@ -525,7 +524,7 @@
     "isCMS": false,
     "isFed": false,
     "lat": 59.329323,
-    "lon": 18.068581,
+    "lon": 18.068581
   },
   "Sydney": {
     "name": "Sydney",
@@ -538,8 +537,8 @@
     "isFed": false,
     "lat": -33.86882,
     "lon": 151.20929,
-    "hosts": {"STD01", "SYD04", "SYD05"},
-    "links": {"Melbourne", "Perth", "Hong Kong", "Tokyo", "Los Angeles"}
+    "hosts": ["STD01", "SYD04", "SYD05"],
+    "links": ["Melbourne", "Perth", "Hong Kong", "Tokyo", "Los Angeles"]
   },
   "Tokyo": {
     "name": "Tokyo",
@@ -552,8 +551,8 @@
     "isFed": false,
     "lat": 35.689487,
     "lon": 139.691711,
-    "hosts": {"TKO02", "TKO04", "TKO05"},
-    "links": {"Seoul", "Hong Kong", "Singapore", "Sydney", "San Jose"}
+    "hosts": ["TKO02", "TKO04", "TKO05"],
+    "links": ["Seoul", "Hong Kong", "Singapore", "Sydney", "San Jose"]
   },
   "Toronto": {
     "name": "Toronto",
@@ -566,8 +565,8 @@
     "isFed": false,
     "lat": 43.65189,
     "lon": -79.381706,
-    "hosts": {"TOR01"},
-    "links": {"Chicago", "Montreal"}
+    "hosts": ["TOR01"],
+    "links": ["Chicago", "Montreal"]
   },
   "Winterthur": {
     "name": "Winterthur",
@@ -580,6 +579,6 @@
     "isFed": false,
     "lat": 47.499882,
     "lon": 8.72616,
-    "links": {"Oslo", "Amsterdam", "Frankfurt"}
+    "links": ["Oslo", "Amsterdam", "Frankfurt"]
   }
-];
+}
