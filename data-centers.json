@@ -1,4 +1,4 @@
-{
+[
   "Amsterdam": {
     "name": "Amsterdam",
     "nation": "The Netherlands",
@@ -582,4 +582,4 @@
     "lon": 8.72616,
     "links": {"Oslo", "Amsterdam", "Frankfurt"}
   }
-}
+];
