@@ -12,7 +12,7 @@
     "hosts": ["AMS01", "AMS03"],
     "links": ["London", "Frankfurt", "Oslo", "Stockholm"]
   },
-  {
+  "Ashburn": {
     "name": "Ashburn",
     "state": "NC",
     "nation": "United States",
@@ -27,7 +27,7 @@
     "hosts": ["WDC01", "WDC03", "WDC04", "WDC06", "WDC07"],
     "links": ["Atlanta", "Chicago", "New York", "Amsterdam"]
   },
-  {
+  "Atlanta": {
     "name": "Atlanta",
     "state": "GA",
     "nation": "United States",
@@ -41,7 +41,7 @@
     "long": -84.387985,
     "links": ["Ashburn", "Dallas", "Miami"]
   },
-  {
+  "Barcelona": {
     "name": "Barcelona",
     "nation": "Spain",
     "continent": "EU",
@@ -53,7 +53,7 @@
     "lat": 41.385063,
     "long": 2.173404
   },
-  {
+  "Beijing": {
     "name": "Beijing",
     "nation": "China",
     "continent": "AS",
@@ -65,7 +65,7 @@
     "lat": 39.904202,
     "long": 116.407394
   },
-  {
+  "Boulder": {
     "name": "Boulder",
     "state": "CO",
     "nation": "United States",
@@ -78,7 +78,7 @@
     "lat": 40.014984,
     "long": -105.270546
   },
-  {
+  "Chantilly": {
     "name": "Chantilly",
     "state": "NC",
     "nation": "United States",
@@ -92,7 +92,7 @@
     "long": -80.79917,
     "hosts": ["WDC01"]
   },
-  {
+  "Chennai": {
     "name": "Chennai",
     "nation": "India",
     "continent": "AS",
@@ -106,7 +106,7 @@
     "hosts": ["CHE1.00"],
     "links": ["Milan", "Paris", "Singapore"]
   },
-  {
+  "Chicago": {
     "name": "Chicago",
     "state": "IL",
     "nation": "United States",
@@ -120,7 +120,7 @@
     "long": -87.629799,
     "links": ["Toronto", "Ashburn", "New York", "Dallas", "Denver", "Seattle"]
   },
-  {
+  "Dallas": {
     "name": "Dallas",
     "state": "TX",
     "nation": "United States",
@@ -135,7 +135,7 @@
     "hosts": ["DAL01", "DAL02", "DAL05", "DAL06", "DAL07", "DAL08", "DAL09", "DAL10,DAL12", "DAL13"],
     "links": ["Atlanta", "Chicago", "Denver", "Los Angeles", "Querétaro"]
   },
-  {
+  "Denver": {
     "name": "Denver",
     "state": "CO",
     "nation": "United States",
@@ -149,7 +149,7 @@
     "long": -104.99025,
     "links": ["Seattle", "San Jose", "Dallas", "Chicago"]
   },
-  {
+  "Ehningen": {
     "name": "Ehningen",
     "nation": "Germany",
     "continent": "EU",
@@ -161,7 +161,7 @@
     "lat": 48.65955,
     "long": 8.94097
   },
-  {
+  "Fareham": {
     "name": "Fareham",
     "nation": "England",
     "continent": "EU",
@@ -173,7 +173,7 @@
     "lat": 50.851452,
     "long": -1.17902
   },
-  {
+  "Frankfurt": {
     "name": "Frankfurt",
     "nation": "Germany",
     "continent": "EU",
@@ -187,7 +187,7 @@
     "hosts": ["FRA02", "FRA04", "FRA05"],
     "links": ["Amsterdam", "Milan", "Oslo", "Stockholm"]
   },
-  {
+  "Hong Kong": {
     "name": "Hong Kong",
     "nation": "China",
     "continent": "AS",
@@ -201,7 +201,7 @@
     "hosts": ["HKG01"],
     "links": ["Seoul", "Tokyo", "Singapore", "Sydney"]
   },
-  {
+  "Hortolandia": {
     "name": "Hortolandia",
     "nation": "Brazil",
     "continent": "SA",
@@ -213,7 +213,7 @@
     "lat": -22.883141,
     "long": -47.210918
   },
-  {
+  "Houston": {
     "name": "Houston",
     "state": "TX",
     "nation": "United States",
@@ -228,7 +228,7 @@
     "hosts": ["HOU02"],
     "links": ["Dallas", "Miami"]
   },
-  {
+  "London": {
     "name": "London",
     "nation": "England",
     "continent": "EU",
@@ -242,7 +242,7 @@
     "hosts": ["LON02", "LON04", "LON05", "LON06"],
     "links": ["Amsterdam", "Oslo", "Paris", "New York"]
   },
-  {
+  "Los Angeles": {
     "name": "Los Angeles",
     "state": "CA",
     "nation": "United States",
@@ -256,7 +256,7 @@
     "long": -118.243683,
     "links": ["Dallas", "Querétaro", "San Jose", "Sydney", "Melbourne", "Singapore"]
   },
-  {
+  "Makuhari": {
     "name": "Makuhari",
     "nation": "Japan",
     "continent": "AS",
@@ -268,7 +268,7 @@
     "lat": 35.659168,
     "long": 140.057236
   },
-  {
+  "Melbourne": {
     "name": "Melbourne",
     "nation": "Australia",
     "continent": "AUS",
@@ -282,7 +282,7 @@
     "hosts": ["MEL01"],
     "links": ["Sydney", "Perth", "Los Angeles"]
   },
-  {
+  "Miami": {
     "name": "Miami",
     "state": "FL",
     "nation": "United States",
@@ -296,7 +296,7 @@
     "long": -80.191788,
     "links": ["Atlanta", "Houston", "Sao Paulo"]
   },
-  {
+  "Milan": {
     "name": "Milan",
     "nation": "Italy",
     "continent": "EU",
@@ -310,7 +310,7 @@
     "hosts": ["MIL01"],
     "links": ["Paris", "Frankfurt", "Chennai"]
   },
-  {
+  "Montpelier": {
     "name": "Montpelier",
     "nation": "France",
     "continent": "EU",
@@ -322,7 +322,7 @@
     "lat": 43.60829,
     "long": 3.8796
   },
-  {
+  "Montreal": {
     "name": "Montreal",
     "nation": "CA",
     "continent": "NA",
@@ -336,7 +336,7 @@
     "hosts": ["MON01"],
     "links": ["Toronto", "New York"]
   },
-  {
+  "New York": {
     "name": "New York",
     "state": "NY",
     "nation": "United States",
@@ -350,7 +350,7 @@
     "long": -74.005974,
     "links": ["Ashburn", "Chicago", "Montreal", "London"]
   },
-  {
+  "Oslo": {
     "name": "Oslo",
     "nation": "Norway",
     "continent": "EU",
@@ -364,7 +364,7 @@
     "hosts": ["OSL01"],
     "links": ["Stockholm Frankfurt", "Amsterdam", "London"]
   },
-  {
+  "Paris": {
     "name": "Paris",
     "nation": "France",
     "continent": "EU",
@@ -377,7 +377,7 @@
     "long": 2.35085,
     "links": ["London", "Milan", "Chennai"]
   },
-  {
+  "Perth": {
     "name": "Perth",
     "nation": "Australia",
     "continent": "AUS",
@@ -390,7 +390,7 @@
     "long": 115.860458,
     "links": ["Melbourne", "Sydney", "Singapore"]
   },
-  {
+  "Portsmouth": {
     "name": "Portsmouth",
     "nation": "England",
     "continent": "EU",
@@ -402,7 +402,7 @@
     "lat": 50.798908,
     "long": -1.09116
   },
-  {
+  "Poughkeepsie": {
     "name": "Poughkeepsie",
     "state": "NY",
     "nation": "United States",
@@ -415,7 +415,7 @@
     "lat": 41.700371,
     "long": -73.920967
   },
-  {
+  "Querétaro": {
     "name": "Querétaro",
     "nation": "Mexico",
     "continent": "NA",
@@ -429,7 +429,7 @@
     "hosts": ["MEX01"],
     "links": ["Dallas", "Los Angeles"]
   },
-  {
+  "Raleigh": {
     "name": "Raleigh",
     "state": "NC",
     "nation": "United States",
@@ -442,7 +442,7 @@
     "lat": 35.779591,
     "long": -78.638176
   },
-  {
+  "San Jose": {
     "name": "San Jose",
     "state": "CA",
     "nation": "United States",
@@ -457,7 +457,7 @@
     "hosts": ["SJC01", "SJC03", "SJC04"],
     "links": ["Los Angeles", "Seattle", "Denver", "Tokyo"]
   },
-  {
+  "Sao Paulo": {
     "name": "Sao Paulo",
     "nation": "Brazil",
     "continent": "SA",
@@ -471,7 +471,7 @@
     "hosts": ["SAO01"],
     "links": ["New York", "Miami", "Los Angeles"]
   },
-  {
+  "Seattle": {
     "name": "Seattle",
     "state": "WA",
     "nation": "United States",
@@ -486,7 +486,7 @@
     "hosts": ["SEA01"],
     "links": ["Chicago", "Denver", "San Jose"]
   },
-  {
+  "Seoul": {
     "name": "Seoul",
     "nation": "Korea",
     "continent": "AS",
@@ -500,7 +500,7 @@
     "hosts": ["SEO01"],
     "links": ["Tokyo", "Hong Kong"]
   },
-  {
+  "Singapore": {
     "name": "Singapore",
     "nation": "Singapore",
     "continent": "AS",
@@ -514,7 +514,7 @@
     "hosts": ["SNG01"],
     "links": ["Perth", "Los Angeles", "Tokyo", "Hong Kong", "Chennai"]
   },
-  {
+  "Stockholm": {
     "name": "Stockholm",
     "nation": "Sweden",
     "continent": "EU",
@@ -526,7 +526,7 @@
     "lat": 59.329323,
     "long": 18.068581
   },
-  {
+  "Sydney": {
     "name": "Sydney",
     "nation": "Australia",
     "continent": "AUS",
@@ -540,7 +540,7 @@
     "hosts": ["STD01", "SYD04", "SYD05"],
     "links": ["Melbourne", "Perth", "Hong Kong", "Tokyo", "Los Angeles"]
   },
-  {
+  "Tokyo": {
     "name": "Tokyo",
     "nation": "Japan",
     "continent": "AS",
@@ -554,7 +554,7 @@
     "hosts": ["TKO02", "TKO04", "TKO05"],
     "links": ["Seoul", "Hong Kong", "Singapore", "Sydney", "San Jose"]
   },
-  {
+  "Toronto": {
     "name": "Toronto",
     "nation": "CA",
     "continent": "NA",
@@ -568,7 +568,7 @@
     "hosts": ["TOR01"],
     "links": ["Chicago", "Montreal"]
   },
-  {
+  "Winterthur": {
     "name": "Winterthur",
     "nation": "Switzerland",
     "continent": "EU",
