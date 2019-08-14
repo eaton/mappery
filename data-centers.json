@@ -336,7 +336,7 @@
     "lat": 59.913868,
     "lon": 10.752245,
     "hosts": ["OSL01"],
-    "links": ["Stockholm Frankfurt", "Amsterdam", "London"]
+    "links": ["Stockholm", "Frankfurt", "Amsterdam", "London"]
   }, {
     "name": "Paris",
     "nation": "France",
