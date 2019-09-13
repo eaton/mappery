@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<script src="https://d3js.org/d3.v4.js"></script>
-		<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src = "http://d3js.org/topojson.v0.min.js"></script>
 	</head>
 	<body>
 		<svg id="my_dataviz" width="500" height="250"></svg>
 	</body>
 	<style>
 		.nation:hover {
-			fill: silver;
+			fill: lightgray;
 		}
 		.datacenter:hover {
 			stroke: black;
@@ -38,15 +38,25 @@
 
 	// Load world shape AND list of connection
 	d3.queue()
-	  .defer(d3.json, "https://raw.githubusercontent.com/eaton/mappery/master/world.geojson")  // World shape
+	  .defer(d3.json, "https://raw.githubusercontent.com/eaton/mappery/master/continents.geojson")  // World shape
 	  .defer(d3.json, "https://raw.githubusercontent.com/eaton/mappery/master/data-centers.json")  // Data centers
 	  .await(ready);
+
+	const interpolate = d3.line().x((d) => d[0]).y((d) => d[1]).curve(d3.curveBasis);
+	const smoothPath = (pstr) => {
+		const sp = path(pstr).replace(/M|Z/, '').split('L').map((d) => d.split(','));
+		return interpolate(sp);
+	};
+
 
 	function ready(error, dataGeo, dataCenters) {
 
 		if (error) {
 			return console.warn(error);
 		}
+		
+		var interpolate = d3.line()
+			.x(function(d){ return d[0] }).y(function(d){ return d[1] }).curve(d3.basis)
 
 		// Generate clusters of inter-connections for each data center
 		var connections = []
@@ -81,7 +91,7 @@
 			.data(connections)
 			.enter()
 			.append("path")
-				.attr("d", function(d){ return path(d)})
+				.attr("d", function(d){ return smoothPath(d)})
 				.style("fill", "none")
 				.style("stroke", "#666")
 				.style("stroke-width", 1)
